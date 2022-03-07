@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: #111;
 }
 
 code {
@@ -14,4 +16,17 @@ code {
 
 * {
   margin: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a80811;
+  border-radius: 30px;
 }
