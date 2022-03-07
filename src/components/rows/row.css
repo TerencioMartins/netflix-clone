@@ -3,6 +3,9 @@
   color: white;
 }
 
+h2{
+    margin-left: 20px;
+}
 .row:hover .row__left,
 .row:hover .row__right {
   opacity: 1;

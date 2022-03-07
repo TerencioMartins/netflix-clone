@@ -5,7 +5,7 @@
 }
 
 .banner__contents {
-  margin-left: 30px;
+  margin-left: 60px;
   padding-top: 140px;
   height: 190px;
 }
@@ -17,6 +17,7 @@
 }
 
 .banner__description {
+    margin-left: 20px;
   width: 45rem;
   line-height: 1.5;
   padding-top: 1rem;
