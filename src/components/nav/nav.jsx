@@ -25,7 +25,7 @@ function Nav() {
             src='https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png'
             alt='netflix logo'
         />
-        <a className='nav__portfolio' href='https://terenciomartins.netlify.app/' target={'_blank'}> Portfólio </a>
+        <a className='nav__portfolio' href='https://terenciomartins.netlify.app/' target={'_blank'} rel="noreferrer"> Portfólio </a>
         <img
             className='nav__avatar'
             src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'
