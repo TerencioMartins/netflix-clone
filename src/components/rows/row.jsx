@@ -42,10 +42,16 @@ function Row({ title, fetchUrl, isLargeRow }) {
   }
 
   function handleRight() {
-    let x = scrollX - 500;
+    // let x = scrollX - 500;
+    let x = scrollX - Math.round(window.innerWidth / 2);
+    let listW = movies.length * 280;
+    if((window.innerWidth - listW) > x){
+      x = (window.innerWidth - listW) - 60;
+    }
     setScrollX(x);
   }
 
+  // console.log(movies);
   return (
     <div className="row">
       <h2>{title}</h2>
