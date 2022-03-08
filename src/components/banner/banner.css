@@ -60,3 +60,21 @@
     #111
   );
 }
+
+@media screen and (max-width:958px) {
+
+  .banner__button{
+    margin-top: 10px;
+    transform: scale(0.9);
+  }
+  .banner__buttons{
+    display: flex;
+  }
+  .banner__contents{
+    margin-left: 10px;
+    padding-top: 140px;
+  }
+  .banner__description{
+    max-width: 15em;
+  }
+}
